@@ -1,0 +1,12 @@
+{
+  "name": "country-coins",
+  "version": "1.0.0",
+  "author": "#!/bin/bash",
+  "license": "MIT",
+  "dependencies": {
+    "scrape-it": "^5.0.2"
+  },
+  "scripts":{
+    "start": "time node cryptocoincharts.js > markets.json"
+  }
+}
